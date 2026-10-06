@@ -844,7 +844,7 @@ export default function App() {
 const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
-    backgroundColor: '#F4F6F8',
+    backgroundColor: '#FAF9FC',
   },
 
   page: {
@@ -868,13 +868,13 @@ const styles = StyleSheet.create({
   appName: {
     fontSize: 27,
     fontWeight: '800',
-    color: '#202124',
+    color: '#17151C',
   },
 
   subTitle: {
     marginTop: 3,
     fontSize: 15,
-    color: '#777777',
+    color: '#6F6A78',
   },
 
   addButton: {
@@ -882,7 +882,7 @@ const styles = StyleSheet.create({
     height: 48,
     borderRadius: 24,
 
-    backgroundColor: '#3282E8',
+    backgroundColor: '#6C4AB6',
 
     alignItems: 'center',
     justifyContent: 'center',
@@ -917,14 +917,14 @@ const styles = StyleSheet.create({
 
   emptyText: {
     marginTop: 12,
-    color: '#777777',
+    color: '#6F6A78',
     fontSize: 17,
   },
 
   emptyButton: {
     marginTop: 18,
 
-    backgroundColor: '#3282E8',
+    backgroundColor: '#6C4AB6',
 
     paddingHorizontal: 22,
     paddingVertical: 12,
@@ -953,18 +953,18 @@ const styles = StyleSheet.create({
       width: 0,
       height: 2,
     },
-    shadowOpacity: 0.06,
+    shadowOpacity: 0.08,
     shadowRadius: 5,
 
     elevation: 2,
   },
 
   avatar: {
-    backgroundColor: '#E5E7EB',
+    backgroundColor: '#E8E1F2',
   },
 
   avatarFallback: {
-    backgroundColor: '#3282E8',
+    backgroundColor: '#6C4AB6',
 
     justifyContent: 'center',
     alignItems: 'center',
@@ -981,25 +981,25 @@ const styles = StyleSheet.create({
   },
 
   studentName: {
-    color: '#202124',
+    color: '#17151C',
     fontSize: 17,
     fontWeight: '700',
   },
 
   studentCode: {
     marginTop: 4,
-    color: '#555555',
+    color: '#403A4A',
     fontSize: 14,
   },
 
   studentEmail: {
     marginTop: 2,
-    color: '#888888',
+    color: '#81798D',
     fontSize: 13,
   },
 
   arrow: {
-    color: '#AAAAAA',
+    color: '#6C4AB6',
     fontSize: 32,
   },
 
@@ -1014,13 +1014,13 @@ const styles = StyleSheet.create({
   },
 
   back: {
-    color: '#3282E8',
+    color: '#6C4AB6',
     fontSize: 16,
     fontWeight: '600',
   },
 
   headerTitle: {
-    color: '#202124',
+    color: '#17151C',
     fontSize: 18,
     fontWeight: '700',
   },
@@ -1037,7 +1037,7 @@ const styles = StyleSheet.create({
   studentNameLarge: {
     marginTop: 16,
 
-    color: '#202124',
+    color: '#17151C',
     fontSize: 25,
     fontWeight: '800',
 
@@ -1059,14 +1059,14 @@ const styles = StyleSheet.create({
     marginTop: 14,
     marginBottom: 6,
 
-    color: '#666666',
+    color: '#6F6A78',
 
     fontSize: 14,
     fontWeight: '600',
   },
 
   value: {
-    color: '#202124',
+    color: '#17151C',
     fontSize: 18,
     fontWeight: '600',
   },
@@ -1076,14 +1076,13 @@ const styles = StyleSheet.create({
 
     marginVertical: 18,
 
-    backgroundColor: '#EEEEEE',
+    backgroundColor: '#E8E3ED',
   },
 
   actionRow: {
     width: '100%',
 
     flexDirection: 'row',
-
     gap: 12,
 
     marginTop: 20,
@@ -1100,11 +1099,11 @@ const styles = StyleSheet.create({
   },
 
   editButton: {
-    backgroundColor: '#3282E8',
+    backgroundColor: '#6C4AB6',
   },
 
   deleteButton: {
-    backgroundColor: '#E53935',
+    backgroundColor: '#17151C',
   },
 
   actionButtonText: {
@@ -1136,11 +1135,11 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFFFFF',
 
     borderWidth: 1,
-    borderColor: '#D9DDE3',
+    borderColor: '#CFC5DD',
     borderRadius: 12,
 
     fontSize: 16,
-    color: '#202124',
+    color: '#17151C',
   },
 
   imageButton: {
@@ -1149,14 +1148,14 @@ const styles = StyleSheet.create({
     paddingVertical: 13,
 
     borderWidth: 1,
-    borderColor: '#3282E8',
+    borderColor: '#6C4AB6',
     borderRadius: 12,
 
     alignItems: 'center',
   },
 
   imageButtonText: {
-    color: '#3282E8',
+    color: '#6C4AB6',
     fontSize: 15,
     fontWeight: '700',
   },
@@ -1168,7 +1167,7 @@ const styles = StyleSheet.create({
 
     borderRadius: 12,
 
-    backgroundColor: '#31B46E',
+    backgroundColor: '#4B2A80',
 
     alignItems: 'center',
   },
